@@ -5,7 +5,6 @@ from kivy.lang.builder import Builder
 import re
 
 Builder.load_file('./calculator.kv')
-Window.size = (450, 650)
 
 class CalculatorWidget(Widget):
     # --------------------------------------------Clear the screen--------------------------------------------
